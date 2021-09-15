@@ -1,0 +1,25 @@
+﻿<Window x:Class="LayoutTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZabbixTopology"
+        mc:Ignorable="d"
+        Title="LayoutTest" Height="450" Width="270">
+    <Grid>
+        <Button Content="Test System" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Test Offsets - 1" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click_1"/>
+        <Button Content="Test Offsets - 2" HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click_2"/>
+        <Button Content="Test Offsets - 3" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click_3"/>
+        <Button Content="Test Offsets - 4" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click_4"/>
+        <Button Content="Test Absolutes - 1" HorizontalAlignment="Left" Margin="134,49,0,0" VerticalAlignment="Top" Width="115" Click="Button_Click_5"/>
+        <Button Content="Test Absolutes - 2" HorizontalAlignment="Left" Margin="134,83,0,0" VerticalAlignment="Top" Width="115" Click="Button_Click_6"/>
+        <Button Content="Test Absolutes - 3" HorizontalAlignment="Left" Margin="134,117,0,0" VerticalAlignment="Top" Width="115" Click="Button_Click_7"/>
+        <Button Content="Test Absolutes - 4" HorizontalAlignment="Left" Margin="134,150,0,0" VerticalAlignment="Top" Width="115" Click="Button_Click_8"/>
+        <Button Content="Test Offsets - 5" HorizontalAlignment="Left" Margin="10,184,0,0" VerticalAlignment="Top" Width="94" Click="OffsetTest5" />
+        <Button Content="Test Absolutes - 5" HorizontalAlignment="Left" Margin="134,184,0,0" VerticalAlignment="Top" Width="115" Click="AbsoluteTest5"/>
+        <Button Content="Test Offsets - 6" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top" Width="94" Click="OffsetTest6" />
+        <Button Content="Test Absolutes - 6" HorizontalAlignment="Left" Margin="134,218,0,0" VerticalAlignment="Top" Width="115" Click="AbsoluteTest6"/>
+
+    </Grid>
+</Window>
